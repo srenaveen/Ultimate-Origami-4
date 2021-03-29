@@ -1,0 +1,169 @@
+.camel{
+    background-color: orange;
+    border: 5px solid black;
+    border-color: black;
+    position:relative;
+}
+.camel h2{
+    position:absolute;
+    top:20%;
+    left:55%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.camel:hover img{
+    transform: scale(1.1);
+}
+.camel:hover h2{
+    opacity: 1;
+}
+.camel:hover{
+    opacity: 0.5;
+}
+.chameleon{
+    background-color: greenyellow;
+    border: 5px solid black;
+    border-color: black;
+    position:relative;
+}
+.chameleon h2{
+    position:absolute;
+    top:15%;
+    left:55%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.chameleon:hover img{
+    transform: scale(1.1);
+}
+.chameleon:hover h2{
+    opacity: 1;
+}
+.chameleon:hover{
+    opacity: 0.5;
+}
+.cicada{
+    background-color:orange;
+    border: 5px solid black;
+    border-color: black;
+    position:relative;
+}
+.cicada h2{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.cicada:hover img{
+    transform: scale(1.1);
+}
+.cicada:hover h2{
+    opacity: 1;
+}
+.cicada:hover{
+    opacity: 0.5;
+}
+.panda{
+    background-color:grey;
+    border: 5px solid black;
+    border-color: black;
+    position:relative;
+}
+.panda h2{
+    position:absolute;
+    top:35%;
+    left:55%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.panda:hover img{
+    transform: scale(1.1);
+}
+.panda:hover h2{
+    opacity: 1;
+}
+.panda:hover{
+    opacity: 0.5;
+}
+.pigeon{
+    background-color:lightblue;
+    border: 5px solid black;
+    border-color: black;
+    position:relative;
+}
+.pigeon h2{
+    position:absolute;
+    top:20%;
+    left:55%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.pigeon:hover img{
+    transform: scale(1.1);
+}
+.pigeon:hover h2{
+    opacity: 1;
+}
+.pigeon:hover{
+    opacity: 0.5;
+}
+.teddy{
+    background-color: lightsalmon;
+    border: 5px solid black;
+    border-color: black;
+    position:relative;
+}
+.teddy h2{
+    position:absolute;
+    top:28%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.teddy:hover img{
+    transform: scale(1.1);
+}
+.teddy:hover h2{
+    opacity: 1;
+}
+.teddy:hover{
+    opacity: 0.5;
+}
+h3{
+    color:white;
+    font-style: italic;
+}
+.top{
+    text-align: center;
+    color: blue;
+    background-color:rgb(12, 199, 12);
+    border: thick;
+    border-color: black;
+}
+img{
+    border: 5px solid black;
+    border-radius: 40px;
+}
+.origami1{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20;
+    text-align: center;
+    font-weight: 300;
+}
+.origami2{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20;
+    text-align: center;
+    font-weight: 300;
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color:green
+}
